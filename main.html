@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERCHANDHISE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="15e7e929-effb-4af1-9b91-c058b3b27fab.png" alt="Logo PPI" class="logo-ppi">
+            <h1 class="product-catalog">PPI</h1>
+            <h1>Merchandise</h1>
+        </div>
+    </header>
+</body>
+
+<main>
+    <section class="catalog">
+        <h2 class="title-product">Our Products</h2>
+        <div class="product-grid">
+            <div class="product-card" data-id="product-1">
+                <img src="Berlengan_update.png" alt="Product 1" class="product-image">
+                <div class="product-details">
+                    <h3>Product One</h3>
+                    <p>Short description of Product One.</p>
+                    <span class="price">$20.00</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-id="product-2">
+                <img src="Berlengan_update.png" alt="Product 2" class="product-image">
+                <div class="product-details">
+                    <h3>Product Two</h3>
+                    <p>Short description of Product Two.</p>
+                    <span class="price">$20.00</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>    
+
+        <div class="order-summary">
+            <h2 class="icon-money"><i class="fa-solid fa-money-bill"></i>Order Summary</h2>
+
+            <ul class="order-summary-list">
+                <li><i class="fa-solid fa-cart-shopping"></i> Total Items: <span id="total-items">0</span></li>
+                <li><i class="fa-solid fa-cart-shopping"></i> Total Price: $<span id="total-price">0.00</span></li>
+            </ul>
+            <div id="product-quantities"></div>
+            <button class="checkout">Checkout</button>
+        </div>
+    </section>
+    
+</main>
+
+
+
+<footer>
+    <div class="container1">
+        <h3>© 2025 PPI Merchandise. All rights reserved.</h1>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</html>
